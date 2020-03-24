@@ -15,7 +15,8 @@ const redisOptions = {
 var client = RedisSentinel.createClient(26379, 'test.redis-sentinel.service.elastx.consul.dex.nu', redisOptions)
 
 function run (client) {
-  client.get('https://www.dagensmedia.se/medier/medier/watch-arnold-schwarzenegger-give-coronavirus-tips-from-his-hot-tub/', redis.print)
+  // client.get('https://www.dagensmedia.se/medier/medier/watch-arnold-schwarzenegger-give-coronavirus-tips-from-his-hot-tub/', redis.print)
+  client.get('https://www.dagensmedia.se/play/7-eleven-luciakampanj-6234212/', redis.print)
 }
 
 client.on('error', function (error) {

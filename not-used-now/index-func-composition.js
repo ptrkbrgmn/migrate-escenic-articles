@@ -25,30 +25,17 @@ const elascticsearchSourceIndexParams = {
 }
 
 const transform = require('./transform').transform
-// const escenicArticle = require('./data/escenic.article.example.2.json')
 const fromDMediaToDagensMedia = transform('dmedia', 'dagensmedia')
-// const result = fromDMediaToDagensMedia(escenicArticle)
-// console.log(JSON.stringify(result, null, 2))
-
-// ---
 
 const createMappingEndpoint = require('./content-url-client').createMappingEndpoint
 const createMapping = createMappingEndpoint('https://content-url-latest.internal.elx.ohoy.io/id-mapping/')
 
-// async function run () {
-//   const result = await createMapping('https://www.dagensmedia.se/test-slug/', 'dagensmedia.escenic.123456')
-//   console.log(JSON.stringify(result, null, 2))
-// }
-// run()
-
-// --
-
+// Only for testing
 const localhostHost = 'http://es-content.dev.bonnier.news:9200'
-// const { Client } = require('@elastic/elasticsearch')
 const esLocalclient = new Client({ node: localhostHost })
 const indexToContentBbm = require('./es-index').index(esLocalclient)('content-bbm', '_doc')
 
-const f = async article => {
+const transformUrlMapAndIndex = async article => {
   const transformedArticle = fromDMediaToDagensMedia(article)
   transformedArticle.indexed.urls
     .reverse()
@@ -56,6 +43,6 @@ const f = async article => {
   indexToContentBbm(transformedArticle)
 }
 
-const indexEscenicArticlesInContentDMediaToContentBbm = require('./es-scroll-search-2').handleArticles(esLastestClient)(elascticsearchSourceIndexParams)('escenic')(f)
+const indexEscenicArticlesInContentDMediaToContentBbm = require('./es-scroll-search-2').handleArticles(esLastestClient)(elascticsearchSourceIndexParams)('escenic')(transformUrlMapAndIndex)
 
 indexEscenicArticlesInContentDMediaToContentBbm()

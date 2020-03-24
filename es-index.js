@@ -7,7 +7,7 @@ const index = client => (index, type) => async (doc) => {
     id: doc.id,
     body: doc
   })
-  console.log(`Indexed article with id ${result.body._id}:`)
+  console.log(`Indexed article with id: ${result.body._id}`)
   return result
 }
 
