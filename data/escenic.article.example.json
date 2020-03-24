@@ -1,0 +1,97 @@
+{
+  "id": "dmedia.escenic.6087106",
+  "objectType": "article",
+  "document": {
+    "type": "article",
+    "id": "dmedia.escenic.6087106",
+    "url": "/medier/digitalt/facebook-vagrar-svara-pa-fragor-om-haveriet-6087106",
+    "articleTypes": [
+      "standard"
+    ],
+    "sectionPath": [
+      {
+        "id": "dmedia.contentful.1OWIYXulSAkQmWAAekoAyw",
+        "name": "Digitalt",
+        "url": "/medier/"
+      }
+    ],
+    "headlineHtml": "Facebook vägrar svara på frågor om haveriet",
+    "topParts": [],
+    "leadHtml": "Sajten nere två gånger under fyra dagar – Facebook duckar frågor.",
+    "publicationTime": "2015-09-29T14:01:01.000+02:00",
+    "updateTime": "2015-12-06T12:50:26.000+01:00",
+    "bodyParts": [
+      {
+        "type": "paragraph",
+        "bodyHtml": "Under gårdagskvällen låg Facebook nere och miljontals användare möttes av ett felmeddelande när de försökte logga in på sajten."
+      },
+      {
+        "type": "paragraph",
+        "bodyHtml": "Det var andra gången på fyra dagar som sajten drabbas av stora störningar och problemen kvarstod i en dryg timme."
+      },
+      {
+        "type": "adspart",
+        "index": 1
+      },
+      {
+        "type": "paragraph",
+        "bodyHtml": "Facebooks pr-byrå i Sverige Spotlight PR säger till Dagens Media att Facebook inte vill kommentera händelsen mer än följande citat:"
+      },
+      {
+        "type": "paragraph",
+        "bodyHtml": "<em>“Earlier today many people had trouble accessing Facebook services intermittently for a short period. We’ve restored service back to 100% for everyone. We apologize to those we inconvenienced.”</em>"
+      },
+      {
+        "type": "paragraph",
+        "bodyHtml": "Översätting:"
+      },
+      {
+        "type": "paragraph",
+        "bodyHtml": "<em>\"Tidigare i dag hade många människor periodvis problem med att logga in på Facebook. Vi har återställt tjänsten till 100 procent för alla. Vi ber om ursäkt till de berörda.\"</em>"
+      }
+    ],
+    "tags": [
+      {
+        "id": "dmedia.contentful.7ydINGQ6VUOsoisueqMmWM",
+        "name": "Facebook",
+        "url": "/tagg/facebook/"
+      }
+    ],
+    "bylines": [
+      {
+        "id": "dmedia.contentful.5B93907klO80gEUMyc8isq",
+        "name": "Frida Nygren",
+        "email": "frida.nygren@dagensmedia.se",
+        "image": null,
+        "title": null
+      }
+    ],
+    "newsValue": "normal",
+    "dropHead": "",
+    "sponsoredBy": {
+      "image": "https://cached-images.bonnier.news/swift/bilder-stage/media/ba0f38703ccd5369a628a8ddd3dd308c.svg",
+      "text": "Digitalt presenteras av:"
+    },
+    "seoTitle": "Facebook vägrar svara på frågor om haveriet",
+    "seoDescription": "",
+    "accessRestriction": "none"
+  },
+  "indexed": {
+    "urls": [
+      "https://www.dagensmedia.se/medier/digitalt/facebook-vagrar-svara-pa-fragor-om-haveriet-6087106"
+    ],
+    "sections": [
+      "dmedia.contentful.1OWIYXulSAkQmWAAekoAyw"
+    ],
+    "tags": [
+      "dmedia.contentful.7ydINGQ6VUOsoisueqMmWM"
+    ],
+    "references": [],
+    "sources": [],
+    "publicationTime": "2015-09-29T14:01:01.000+02:00"
+  },
+  "summary": "Facebook vägrar svara på frågor om haveriet",
+  "eTag": "1iP64JdVxuOfVrmHsnwqou",
+  "indexTime": "2019-06-26T20:09:42.993+02:00",
+  "nextAction": null
+}
