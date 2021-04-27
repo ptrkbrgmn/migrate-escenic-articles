@@ -17,7 +17,7 @@
     "lodash": "^4.17.15",
     "lodash.clonedeep": "^4.5.0",
     "node-json-transform": "^1.0.20",
-    "redis": "^3.0.2",
+    "redis": "^3.1.1",
     "redis-sentinel-client": "^0.2.5",
     "superagent": "^5.2.2"
   },
