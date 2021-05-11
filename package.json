@@ -14,7 +14,7 @@
     "array.prototype.flatmap": "^1.2.3",
     "debug": "^4.1.1",
     "elasticsearch-scroll-stream": "^1.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.clonedeep": "^4.5.0",
     "node-json-transform": "^1.0.20",
     "redis": "^3.0.2",
